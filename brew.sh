@@ -1,5 +1,7 @@
 #!/bin/bash
 
+brew tap caskroom/versions
+
 brew install tree
 brew install nodebrew
 
