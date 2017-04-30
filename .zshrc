@@ -56,7 +56,8 @@ RPROMPT="%{$fg[cyan]%}[%~]%{$reset_color%}"
 # alias
 alias p='pet exec'
 alias psp='pet search | pbcopy'
-#alias ls='ls -ag'
+alias ls="ls -G"
+alias la="ls -laGF"
 
 # go
 export GOPATH=$HOME/go
