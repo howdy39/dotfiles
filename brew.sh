@@ -3,7 +3,11 @@
 brew tap caskroom/versions
 
 brew install tree
+
+mkdir -p ~/.nodebrew/src
 brew install nodebrew
+
+brew install antigen
 
 brew cask install visual-studio-code
 brew cask install slack
