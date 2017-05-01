@@ -8,6 +8,7 @@ mkdir -p ~/.nodebrew/src
 brew install nodebrew
 
 brew install antigen
+brew install phantomjs
 
 brew cask install visual-studio-code
 brew cask install slack
