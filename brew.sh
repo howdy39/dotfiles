@@ -11,6 +11,7 @@ brew install antigen
 brew install phantomjs
 
 brew cask install visual-studio-code
+brew cask install intellij-idea
 brew cask install slack
 brew cask install sourcetree
 brew cask install java7
