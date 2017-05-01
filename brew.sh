@@ -13,4 +13,5 @@ brew install phantomjs
 brew cask install visual-studio-code
 brew cask install slack
 brew cask install sourcetree
+brew cask install java7
 brew cask install google-chrome-canary
