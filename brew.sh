@@ -15,3 +15,6 @@ brew cask install slack
 brew cask install sourcetree
 brew cask install java7
 brew cask install google-chrome-canary
+
+# Maven 要Java
+brew install maven
