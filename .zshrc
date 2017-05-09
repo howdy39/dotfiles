@@ -68,3 +68,11 @@ export PATH=$PATH:/Users/howdy39/go_appengine/
 # gcloud
 [ -s $HOME/google-cloud-sdk/path.zsh.inc ] && source $HOME/google-cloud-sdk/path.zsh.inc
 [ -s $HOME/google-cloud-sdk/completion.zsh.inc ] && source $HOME/google-cloud-sdk/completion.zsh.inc
+
+# node
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# Java
+export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`
+PATH=${JAVA_HOME}/bin:${PATH}
+
