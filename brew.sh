@@ -9,6 +9,7 @@ brew install nodebrew
 
 brew install wget
 brew install the_silver_searcher
+brew install knqyf263/pet/pet
 brew install antigen
 brew install phantomjs
 
