@@ -7,6 +7,7 @@ brew install tree
 mkdir -p ~/.nodebrew/src
 brew install nodebrew
 
+brew install wget
 brew install antigen
 brew install phantomjs
 
