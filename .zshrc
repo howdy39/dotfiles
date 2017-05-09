@@ -4,7 +4,7 @@ compinit
 
 # antigen
 export DOTFILES=$HOME/dotfiles
-source $DOTFILES/antigen/antigen.zsh
+source $DOTFILES/antigen.zsh
 
 antigen use oh-my-zsh
 
