@@ -76,3 +76,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`
 PATH=${JAVA_HOME}/bin:${PATH}
 
+# App Engine SDK for Java
+# https://cloud.google.com/appengine/docs/standard/java/download#java_mac
+export PATH=${PATH}:${HOME}/env/appengine-java-sdk-1.9.53/bin/
+
