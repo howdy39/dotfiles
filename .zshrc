@@ -66,8 +66,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/Users/howdy39/go_appengine/ 
 
 # gcloud
-[ -s $HOME/google-cloud-sdk/path.zsh.inc ] && source $HOME/google-cloud-sdk/path.zsh.inc
-[ -s $HOME/google-cloud-sdk/completion.zsh.inc ] && source $HOME/google-cloud-sdk/completion.zsh.inc
+# https://cloud.google.com/sdk/docs/?hl=ja
+[ -s $HOME/env/google-cloud-sdk/path.zsh.inc ] && source $HOME/env/google-cloud-sdk/path.zsh.inc
+[ -s $HOME/env/google-cloud-sdk/completion.zsh.inc ] && source $HOME/env/google-cloud-sdk/completion.zsh.inc
 
 # node
 export PATH=$HOME/.nodebrew/current/bin:$PATH
