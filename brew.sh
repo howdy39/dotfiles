@@ -18,6 +18,7 @@ brew cask install slack
 brew cask install sourcetree
 brew cask install java7
 brew cask install google-chrome-canary
+brew cask install clipy
 
 # Maven 要Java
 brew install maven
