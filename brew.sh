@@ -20,6 +20,7 @@ brew cask install java7
 brew cask install google-chrome-canary
 brew cask install clipy
 brew cask install mysqlworkbench
+brew cask install iterm2
 
 # Maven 要Java
 brew install maven
