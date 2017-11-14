@@ -58,6 +58,7 @@ alias p='pet exec'
 alias psp='pet search | pbcopy'
 alias ls="ls -G"
 alias la="ls -laGF"
+alias gogland="open -b com.jetbrains.gogland-eap"
 
 # go
 export GOPATH=$HOME/go
