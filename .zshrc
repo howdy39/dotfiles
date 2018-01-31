@@ -1,3 +1,6 @@
+# echo
+set -o BSD_ECHO
+
 # 補完機能
 autoload -U compinit
 compinit
