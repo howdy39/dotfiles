@@ -1,4 +1,4 @@
-# echo
+# BSD ECHO
 set -o BSD_ECHO
 
 # 補完機能
@@ -57,11 +57,10 @@ SPROMPT="%{$fg[red]%}correct: %R -> %r [nyae]? %{$reset_color%}"
 RPROMPT="%{$fg[cyan]%}[%~]%{$reset_color%}"
 
 # alias
-alias p='pet exec'
+alias p='`pet search`'
 alias psp='pet search | pbcopy'
 alias ls="ls -G"
 alias la="ls -laGF"
-alias gogland="open -b com.jetbrains.gogland-eap"
 
 # go
 export GOPATH=$HOME/go
@@ -76,6 +75,12 @@ export PATH=$PATH:/Users/howdy39/go_appengine/
 
 # node
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# NVM
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Java
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`
