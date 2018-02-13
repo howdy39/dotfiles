@@ -12,6 +12,7 @@ brew install the_silver_searcher
 brew install knqyf263/pet/pet
 brew install antigen
 brew install phantomjs
+brew install goenv
 
 brew cask install visual-studio-code
 brew cask install slack

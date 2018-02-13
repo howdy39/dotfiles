@@ -65,6 +65,10 @@ alias la="ls -laGF"
 # go
 export GOPATH=$HOME/go
 
+# goenv
+export PATH="$HOME/.goenv/bin:$PATH"
+eval "$(goenv init -)"
+
 # gae for go
 export PATH=$PATH:/Users/howdy39/go_appengine/ 
 
