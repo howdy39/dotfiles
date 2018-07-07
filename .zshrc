@@ -93,3 +93,6 @@ PATH=${JAVA_HOME}/bin:${PATH}
 # https://cloud.google.com/appengine/docs/standard/java/download#java_mac
 export APPENGINE_SDK=${HOME}/env/appengine-java-sdk-1.9.53
 export PATH=${PATH}:${APPENGINE_SDK}/bin/
+
+# ruby
+eval "$(rbenv init -)"

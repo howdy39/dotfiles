@@ -13,6 +13,7 @@ brew install knqyf263/pet/pet
 brew install antigen
 brew install phantomjs
 brew install goenv
+brew install rbenv ruby-build
 
 brew cask install visual-studio-code
 brew cask install slack
