@@ -25,6 +25,7 @@ brew cask install clipy
 brew cask install mysqlworkbench
 brew cask install iterm2
 brew cask install google-japanese-ime
+brew cask install skitch
 
 # Maven 要Java
 brew install maven
