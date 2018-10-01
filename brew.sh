@@ -24,6 +24,7 @@ brew cask install google-chrome-canary
 brew cask install clipy
 brew cask install mysqlworkbench
 brew cask install iterm2
+brew cask install google-japanese-ime
 
 # Maven 要Java
 brew install maven
