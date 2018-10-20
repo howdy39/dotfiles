@@ -15,6 +15,7 @@ brew install phantomjs
 brew install goenv
 brew install rbenv ruby-build
 brew install ghkw
+brew install direnv
 
 brew cask install visual-studio-code
 brew cask install slack
