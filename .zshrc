@@ -96,3 +96,7 @@ export PATH=${PATH}:${APPENGINE_SDK}/bin/
 
 # ruby
 eval "$(rbenv init -)"
+
+# direnv
+export EDITOR=vi
+eval "$(direnv hook zsh)"
