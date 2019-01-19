@@ -78,12 +78,7 @@ export PATH=$PATH:/Users/howdy39/go_appengine/
 [ -s $HOME/env/google-cloud-sdk/completion.zsh.inc ] && source $HOME/env/google-cloud-sdk/completion.zsh.inc
 
 # node
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+eval "$(nodenv init -)"
 
 # Java
 export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`

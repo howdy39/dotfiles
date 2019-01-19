@@ -4,14 +4,12 @@ brew tap caskroom/versions
 
 brew install tree
 
-mkdir -p ~/.nodebrew/src
-brew install nodebrew
+brew install nodenv
 
 brew install wget
 brew install the_silver_searcher
 brew install knqyf263/pet/pet
 brew install antigen
-brew install phantomjs
 brew install goenv
 brew install rbenv ruby-build
 brew install ghkw
