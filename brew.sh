@@ -3,6 +3,7 @@
 brew tap caskroom/versions
 
 brew install tree
+brew install tig
 
 brew install nodenv
 
@@ -18,10 +19,10 @@ brew install direnv
 brew cask install visual-studio-code
 brew cask install slack
 brew cask install sourcetree
-brew cask install java7
+# brew cask install java7
 brew cask install google-chrome-canary
 brew cask install clipy
-brew cask install mysqlworkbench
+# brew cask install mysqlworkbench
 brew cask install iterm2
 brew cask install google-japanese-ime
 brew cask install skitch
