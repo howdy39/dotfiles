@@ -29,6 +29,7 @@ brew cask install iterm2
 # brew cask install google-japanese-ime
 brew cask install skitch
 brew cask install cmd-eikana
+brew cask install bettertouchtool
 
 # Maven 要Java
 # brew install maven
