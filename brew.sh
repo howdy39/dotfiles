@@ -28,6 +28,7 @@ brew cask install clipy
 brew cask install iterm2
 # brew cask install google-japanese-ime
 brew cask install skitch
+brew cask install cmd-eikana
 
 # Maven 要Java
 # brew install maven
