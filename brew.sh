@@ -17,6 +17,7 @@ brew install knqyf263/pet/pet
 # brew install rbenv ruby-build
 # brew install ghkw
 brew install direnv
+brew install fish
 
 brew cask install visual-studio-code
 brew cask install slack
