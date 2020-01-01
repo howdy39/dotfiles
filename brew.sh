@@ -19,6 +19,9 @@ brew install knqyf263/pet/pet
 brew install direnv
 brew install fish
 
+brew install docker
+brew cask install docker
+
 brew cask install visual-studio-code
 brew cask install slack
 # brew cask install sourcetree
