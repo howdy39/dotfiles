@@ -95,3 +95,7 @@ eval "$(nodenv init -)"
 # direnv
 export EDITOR=vi
 eval "$(direnv hook zsh)"
+
+# for homebrew
+export PATH="/usr/local/sbin:$PATH"
+
