@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 brew install tree
 brew install tig
