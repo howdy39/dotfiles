@@ -63,34 +63,34 @@ alias ls="ls -G"
 alias la="ls -laGF"
 
 # go
-export GOPATH=$HOME/go
+# export GOPATH=$HOME/go
 
 # goenv
-export PATH="$HOME/.goenv/bin:$PATH"
-eval "$(goenv init -)"
+# export PATH="$HOME/.goenv/bin:$PATH"
+# eval "$(goenv init -)"
 
 # gae for go
-export PATH=$PATH:/Users/howdy39/go_appengine/ 
+# export PATH=$PATH:/Users/howdy39/go_appengine/ 
 
 # gcloud
 # https://cloud.google.com/sdk/docs/?hl=ja
-[ -s $HOME/env/google-cloud-sdk/path.zsh.inc ] && source $HOME/env/google-cloud-sdk/path.zsh.inc
-[ -s $HOME/env/google-cloud-sdk/completion.zsh.inc ] && source $HOME/env/google-cloud-sdk/completion.zsh.inc
+# [ -s $HOME/env/google-cloud-sdk/path.zsh.inc ] && source $HOME/env/google-cloud-sdk/path.zsh.inc
+# [ -s $HOME/env/google-cloud-sdk/completion.zsh.inc ] && source $HOME/env/google-cloud-sdk/completion.zsh.inc
 
 # node
 eval "$(nodenv init -)"
 
 # Java
-export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`
-PATH=${JAVA_HOME}/bin:${PATH}
+# export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.7"`
+# PATH=${JAVA_HOME}/bin:${PATH}
 
 # App Engine SDK for Java
 # https://cloud.google.com/appengine/docs/standard/java/download#java_mac
-export APPENGINE_SDK=${HOME}/env/appengine-java-sdk-1.9.53
-export PATH=${PATH}:${APPENGINE_SDK}/bin/
+# export APPENGINE_SDK=${HOME}/env/appengine-java-sdk-1.9.53
+# export PATH=${PATH}:${APPENGINE_SDK}/bin/
 
 # ruby
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # direnv
 export EDITOR=vi
