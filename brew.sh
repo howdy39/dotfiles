@@ -1,5 +1,6 @@
 #!/bin/bash
 
+brew install homebrew/cask
 brew tap homebrew/cask-versions
 
 brew install tree
