@@ -22,20 +22,18 @@ brew install direnv
 
 # brew install docker
 
-# brew install docker --cask
-brew install visual-studio-code --cask
-brew install slack --cask
-# brew install sourcetree --cask
-# brew install java7 --cask
-# brew install google-chrome-canary --cask
-# brew install clipy --cask
-# brew install mysqlworkbench --cask
-brew install iterm2 --cask
-# brew install google-japanese-ime --cask
-brew install skitch --cask
-brew install cmd-eikana --cask
-brew install bettertouchtool --cask
-brew install alfred --cask
+brew install visual-studio-code
+brew install slack
+# brew install google-chrome-canary
+# brew install clipy
+# brew install mysqlworkbench
+brew install iterm2
+brew install google-japanese-ime
+brew install skitch
+brew install cmd-eikana
+brew install bettertouchtool
+brew install alfred
+brew install gh
 
 # Maven 要Java
 # brew install maven
