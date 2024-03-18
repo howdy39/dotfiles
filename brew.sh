@@ -34,6 +34,7 @@ brew install cmd-eikana
 brew install bettertouchtool
 # brew install alfred
 brew install --cask 1password
+brew install --cask raycast
 
 # Maven 要Java
 # brew install maven
