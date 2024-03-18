@@ -35,6 +35,7 @@ brew install bettertouchtool
 # brew install alfred
 brew install --cask 1password
 brew install --cask raycast
+brew install --cask arc
 
 # Maven 要Java
 # brew install maven
