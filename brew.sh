@@ -19,8 +19,8 @@ brew install jq
 # brew install ghkw
 brew install direnv
 # brew install fish
-
 # brew install docker
+brew install gh
 
 brew install visual-studio-code
 brew install slack
@@ -33,7 +33,7 @@ brew install skitch
 brew install cmd-eikana
 brew install bettertouchtool
 # brew install alfred
-brew install gh
+brew install --cask 1password
 
 # Maven 要Java
 # brew install maven
