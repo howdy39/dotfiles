@@ -11,6 +11,7 @@ brew install nodenv
 # brew install wget
 # brew install httpie
 brew install jq
+brew install ynqa/tap/jnv
 # brew install the_silver_searcher
 # brew install knqyf263/pet/pet
 # brew install antigen
