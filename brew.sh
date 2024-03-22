@@ -21,6 +21,7 @@ brew install direnv
 # brew install fish
 # brew install docker
 brew install gh
+brew tap heroku/brew && brew install heroku
 
 brew install visual-studio-code
 brew install slack
