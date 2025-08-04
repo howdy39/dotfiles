@@ -1,10 +1,17 @@
+export DENO_INSTALL="/Users/howdy39/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+export PATH=$HOME/.nodenv/bin:$PATH
 eval "$(nodenv init -)"
-export PATH="$HOME/.nodenv/bin:$PATH"
-export PATH="$HOME/.nodenv/shims:$PATH"
 
 export EDITOR=vi
 eval "$(direnv hook zsh)"
-function gam() { "/Users/howdy39/bin/gam/gam" "$@" ; }
 
-export DENO_INSTALL="/Users/howdy39/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
+# poetry
+export PATH="/Users/howdy39/.local/bin:$PATH"
+
+# curl
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+
+# ~/.zshrc
+eval "$(starship init zsh)"
