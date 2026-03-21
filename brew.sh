@@ -37,7 +37,7 @@ brew install google-japanese-ime
 brew install bettertouchtool
 # brew install alfred
 brew install --cask 1password
-# brew install --cask raycast
+brew install --cask raycast
 # brew install --cask arc
 # brew install --cask cursor
 brew install --cask cmux
