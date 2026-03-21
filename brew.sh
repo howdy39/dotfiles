@@ -11,7 +11,7 @@ brew install nodenv
 # brew install wget
 # brew install httpie
 brew install jq
-brew install ynqa/tap/jnv
+# brew install ynqa/tap/jnv
 # brew install the_silver_searcher
 # brew install knqyf263/pet/pet
 # brew install antigen
@@ -22,8 +22,8 @@ brew install direnv
 # brew install fish
 # brew install docker
 brew install gh
-brew tap heroku/brew && brew install heroku
-brew install starship
+# brew tap heroku/brew && brew install heroku
+# brew install starship
 
 brew install visual-studio-code
 brew install slack
@@ -32,14 +32,14 @@ brew install slack
 # brew install mysqlworkbench
 # brew install iterm2
 brew install google-japanese-ime
-brew install skitch
-brew install cmd-eikana
+# brew install skitch
+# brew install cmd-eikana
 brew install bettertouchtool
 # brew install alfred
 brew install --cask 1password
-brew install --cask raycast
-brew install --cask arc
-brew install --cask cursor
+# brew install --cask raycast
+# brew install --cask arc
+# brew install --cask cursor
 
 # Maven 要Java
 # brew install maven
