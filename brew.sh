@@ -41,6 +41,7 @@ brew install --cask raycast
 # brew install --cask arc
 # brew install --cask cursor
 brew install --cask cmux
+brew install --cask cleanshot
 
 # Maven 要Java
 # brew install maven
