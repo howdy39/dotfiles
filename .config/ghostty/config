@@ -1,0 +1,8 @@
+# 英数字の指定（太さを指定するために書き換えます）
+font-family = "SF Mono Medium"
+
+# 日本語の指定（こちらも太めに合わせます）
+font-family = "Hiragino Sans Mono W6"
+
+# 文字をより「くっきり」させるためのレンダリング設定（お好みで）
+font-thicken = true
